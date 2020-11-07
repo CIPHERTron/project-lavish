@@ -608,3 +608,18 @@ footer {
     margin: 5px 0;
   }
 }
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+	background: #ddd;
+	width: 15px;
+}
+
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 10px #00000070;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6a93cb;
+  background-image: linear-gradient(315deg, #6a93cb 0%, #a4bfef 74%);
+}
