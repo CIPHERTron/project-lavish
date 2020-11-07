@@ -17,6 +17,12 @@
         <!-- Font Awesome -->
         <script src="https://kit.fontawesome.com/ee299b1b93.js" crossorigin="anonymous"></script>
 
+        <!-- Animate CSS CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+        <!-- AOS library CDN -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
         <!-- Stylesheets -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -66,7 +72,7 @@
     <!--//////////////////////////// Full Page Image Background Carousel////////////////////////////// -->
 
    
-    <div id="carouselExampleIndicators" class="autoplay carousel slide container" data-ride="carousel">
+    <div data-aos="zoom-in-up" data-aos-duration="1000" id="carouselExampleIndicators" class="autoplay carousel slide container" data-ride="carousel">
 
       <div class="heading"> <h1 class="display-4">Suites</h1> </div>
       <ol class="carousel-indicators">
@@ -82,8 +88,8 @@
         <div class="carousel-item active" style="background-image: url('https://portozante.com/images/uploads/photogallery/Luxury_Villa_Greece_-_Royal_Infinity_-_Porto_Zante_Luxury_Hotel_-_Zakynthos_-_Greece_1728px.jpg')">
           <div class="overlay"></div>
           <div class="carousel-caption d-md-block">
-            <h2 class="display-5">Luxury Villa</h2>
-            <p class="lead">People who like huge space inside and outside as well as garden; 
+            <h2 class="animate__animated animate__fadeInLeft display-5">Luxury Villa</h2>
+            <p class="animate__animated animate__fadeInRight lead">People who like huge space inside and outside as well as garden; 
               a luxury villa is a perfect choice. 
               Villas are also good for families or group of friends.</p>
           </div>
@@ -91,8 +97,8 @@
         <div class="carousel-item " style="background-image: url('https://i.pinimg.com/originals/d7/1f/79/d71f79e1e76221f35f5911488aeb8f0c.jpg')">
           <div class="overlay"></div>        
           <div class="carousel-caption d-md-block">
-            <h2 class="display-5">Deluxe Suite</h2>
-            <p class="lead">A classical minimalist style luxurious suite with high quality materials. 
+            <h2 class="animate__animated animate__fadeInLeft display-5">Deluxe Suite</h2>
+            <p class="animate__animated animate__fadeInRight lead">A classical minimalist style luxurious suite with high quality materials. 
               Deluxe suites are recommended for people who like spacious accommodation. </p>
           </div>
         </div>
@@ -100,8 +106,8 @@
         <div class="carousel-item" style="background-image: url('https://d2e5ushqwiltxm.cloudfront.net/wp-content/uploads/sites/76/2016/11/13052542/Jr-Suite-with-Balconynew1.jpg')">
           <div class="overlay"></div>
           <div class="carousel-caption  d-md-block">
-            <h2 class="display-5">Mini Suite</h2>
-            <p class="lead">Junior suites are perfect for travelers, 
+            <h2 class="animate__animated animate__fadeInLeft display-5">Mini Suite</h2>
+            <p class="animate__animated animate__fadeInRight lead">Junior suites are perfect for travelers, 
               who just like to taste the feeling of luxury hotel suites.</p>
           </div>
         </div>
@@ -109,15 +115,15 @@
         <div class="carousel-item" style="background-image: url('https://www.strandhotellimerick.ie/upload/slide_images/double-single-full-res.jpg')">
           <div class="overlay"></div>
           <div class="carousel-caption d-md-block">
-            <h2 class="display-5">Family Suite</h2>
-            <p class="lead">Family suitable rooms with separate beds and customized facilities, best suited for four.</p>
+            <h2 class="animate__animated animate__fadeInLeft display-5">Family Suite</h2>
+            <p class="animate__animated animate__fadeInRight lead">Family suitable rooms with separate beds and customized facilities, best suited for four.</p>
           </div>
         </div>
         <div class="carousel-item" style="background-image: url('https://webbox.imgix.net/images/owvecfmxulwbfvxm/c56a0c0d-8454-431a-9b3e-f420c72e82e3.jpg?auto=format,compress&fit=crop&crop=entropy')">
           <div class="overlay"></div>
           <div class="carousel-caption d-md-block">
-            <h2 class="display-5">Single rooms</h2>
-            <p class="lead">Our comfortable single rooms are just the right size if you are travelling alone.</p>
+            <h2 class="animate__animated animate__fadeInLeft display-5">Single rooms</h2>
+            <p class="animate__animated animate__fadeInRight lead">Our comfortable single rooms are just the right size if you are travelling alone.</p>
           </div>
         </div>
       </div>
@@ -254,7 +260,7 @@
 
  <!-- /////////////////////////Services/////////////////////////////////// -->
 
- <div id="facilities" class="services">
+ <div data-aos="fade-up" data-aos-duration="1000" id="facilities" class="services">
   <div class="heading"> <h1 class="display-4">Facilities</h1> </div>
   <div class="container">
     <div class="row icon-row">
@@ -428,12 +434,11 @@ s60.2,40,120,40s59.8,0,59.8,0l0.2,143H-60V96L-40,95.6z"></path>
   </div>
 </div>
 
-<div id="contact" class="contact container">
+<div data-aos="flip-right" data-aos-duration="2000" id="contact" class="contact container">
 
   <div class="heading"> <span class="fas fa-phone-alt icon"></span> <h1 class="display-4">Contact Us</h1> </div>
   <p class="lead">For pricing and other related queries contact us.
-   Follow us on social media sites to explore new world class standard of hospitality and service
-    (Links in footer)</p>
+   Follow us on social media sites to explore new world class standard of hospitality and service.</p>
 </div>
 
 <!-- //////////////////////////////////Footer//////////////////////////////////////////////// -->
@@ -501,6 +506,12 @@ s60.2,40,120,40s59.8,0,59.8,0l0.2,143H-60V96L-40,95.6z"></path>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+
         <script src="src/index.js"></script>
     </body>
 </html>

@@ -4,6 +4,7 @@
 }
 
 body {
+  overflow-x: hidden;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
   background: rgb(105, 155, 200);
@@ -193,6 +194,9 @@ header .overlay {
 }
 
 @media screen and (max-height: 450px) {
+  .ham {
+    color: rgb(255, 255, 255);
+  }
   .overlay {
     overflow-y: auto;
   }
@@ -623,3 +627,4 @@ footer {
   background-color: #6a93cb;
   background-image: linear-gradient(315deg, #6a93cb 0%, #a4bfef 74%);
 }
+
