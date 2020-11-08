@@ -600,6 +600,10 @@ footer {
   line-height: 2rem;
 }
 
+.center ul li a{
+  text-decoration: none !important;
+}
+
 .bottom {
   padding: 5px;
   font-size: 0.9375rem;
